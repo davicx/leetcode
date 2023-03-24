@@ -1,2 +1,22 @@
+leetcode/Main.java
+ leetcode.Main
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue
+master/Master.java
+ master.Master
+tools/Main.java
+ tools.Main
+learning/CompareUserID.java
+ learning.CompareUserID
+learning/User.java
+ learning.User
+learning/CompareUsername.java
+ learning.CompareUsername
+master/MasterSort.java
+ master.MasterSort
 Main.java
  Main
+leetcode/TopFrequentElements.java
+ leetcode.CompareCount
+ leetcode.Num
+ leetcode.TopFrequentElements
