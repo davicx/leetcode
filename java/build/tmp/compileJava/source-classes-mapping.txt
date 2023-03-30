@@ -1,22 +1,30 @@
 leetcode/Main.java
  leetcode.Main
-learning/LearnPriorityQueue.java
- learning.LearnPriorityQueue
-master/Master.java
- master.Master
-tools/Main.java
- tools.Main
-learning/CompareUserID.java
- learning.CompareUserID
-learning/User.java
- learning.User
-learning/CompareUsername.java
- learning.CompareUsername
-master/MasterSort.java
- master.MasterSort
 Main.java
  Main
+learning/User.java
+ learning.User
+leetcode/SortCharactersByFrequency.java
+ leetcode.CharCount
+ leetcode.CompareChar
+ leetcode.SortCharactersByFrequency
+tools/Main.java
+ tools.Main
+learning/CompareUsername.java
+ learning.CompareUsername
+learning/CompareUserID.java
+ learning.CompareUserID
 leetcode/TopFrequentElements.java
+ leetcode.TopFrequentElements
+leetcode/TopKFrequentElements.java
  leetcode.CompareCount
  leetcode.Num
- leetcode.TopFrequentElements
+ leetcode.TopKFrequentElements
+master/MasterSort.java
+ master.MasterSort
+master/Master.java
+ master.Master
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue
+leetcode/ValidSudoku.java
+ leetcode.ValidSudoku

@@ -4,6 +4,8 @@ import learning.User;
 
 import java.util.*;
 
+//WORKS
+
 public class TopFrequentElements {
     public static void main(String[] args) {
         int k = 2;
@@ -11,11 +13,11 @@ public class TopFrequentElements {
         //Input:  = [], k = 2
         //Output: [1,2]
 
-        topKFrequent(nums, k);
+        //topKFrequent(nums, k);
 
 
     }
-
+/*
     public static int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> mapCount = new HashMap<>();
         int maxOne = 0;
@@ -131,5 +133,7 @@ class CompareCount implements Comparator<Num> {
             return 0;
         }
     }
+
+ */
 }
 
