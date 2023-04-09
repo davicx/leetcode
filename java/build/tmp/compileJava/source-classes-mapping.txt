@@ -1,30 +1,65 @@
+data/SimpleNode.java
+ data.ListNode
+ data.SimpleNode
 leetcode/Main.java
  leetcode.Main
-Main.java
- Main
-learning/User.java
- learning.User
+language/SimpleClass.java
+ language.SimpleClass
+ language.User
 leetcode/SortCharactersByFrequency.java
  leetcode.CharCount
  leetcode.CompareChar
  leetcode.SortCharactersByFrequency
-tools/Main.java
- tools.Main
-learning/CompareUsername.java
- learning.CompareUsername
 learning/CompareUserID.java
  learning.CompareUserID
 leetcode/TopFrequentElements.java
  leetcode.TopFrequentElements
+language/simpleInterface.java
+ language.Dwarf
+ language.OceanDwarf
+ language.simpleInterface
+learning/CompareUsername.java
+ learning.CompareUsername
+language/simpleAbstract.java
+ language.Elf
+ language.WoodElf
+ language.simpleAbstract
+language/SimpleInheritance.java
+ language.Hero
+ language.Person
+ language.SimpleInheritance
+Main.java
+ Main
+learning/User.java
+ learning.User
+tools/CountWords.java
+ tools.CountWords
+leetcode/ValidSudoku.java
+ leetcode.ValidSudoku
+tools/aPriorityQueue.java
+ tools.aPriorityQueue
+language/SimpleInnerClass.java
+ language.OuterClass
+ language.OuterClass$InnerClass
+ language.SimpleInnerClass
 leetcode/TopKFrequentElements.java
  leetcode.CompareCount
  leetcode.Num
  leetcode.TopKFrequentElements
+tools/MultiThreading.java
+ tools.MultiThreading
 master/MasterSort.java
  master.MasterSort
-master/Master.java
- master.Master
+master/MasterAllWorkFromBefore.java
+ master.MasterAllWorkFromBefore
+language/simplePolymorphism.java
+ language.Bowman
+ language.Legolas
+ language.MainHero
+ language.simplePolymorphism
 learning/LearnPriorityQueue.java
  learning.LearnPriorityQueue
-leetcode/ValidSudoku.java
- leetcode.ValidSudoku
+leetcode/runLRUCache.java
+ leetcode.Item
+ leetcode.LRUCache
+ leetcode.runLRUCache

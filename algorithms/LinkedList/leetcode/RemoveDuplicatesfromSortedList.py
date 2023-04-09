@@ -9,21 +9,112 @@ class Node:
         self.val = val
         self.next = next
 
-
-#Notes
+#Setup 
 node3 = Node(val="b", next= None)
-node2 = Node(val="a", next= node3)
+node2 = Node(val="b", next= node3)
 head = Node(val="a", next= node2)
 
-itr = head
 
+
+def deleteDuplicates(head):
+    cur = head
+    
+    while cur: 
+        while cur.next and cur.val == cur.next.val:
+            #print("Duplicate found")
+            #print("the current value ", cur.val, " and the next value ", cur.next.val)
+            cur.next = cur.next.next
+
+        cur = cur.next 
+
+    return head
+
+#Answer
+answer = deleteDuplicates(head)
+
+itr = answer
+print("The Answer ")
 while itr:
     print(itr.val)
     itr = itr.next
 
-print(" ")
 
+
+
+
+
+#NOTES
+#Set Up
+'''
+node4 = Node(val="b", next= None)
+node3 = Node(val="b", next= node4)
+node2 = Node(val="a", next= node3)
+head = Node(val="a", next= node2)
+'''
+
+node3 = Node(val="1", next= None)
+node2 = Node(val="1", next= node3)
+head = Node(val="1", next= node2)
+
+#Mine
+'''
 def deleteDuplicates(head):
+    cur = head
+    
+    while cur: 
+        while cur.next and cur.val == cur.next.val:
+            print("Duplicate found")
+            print("the current value ", cur.val, " and the next value ", cur.next.val)
+            cur.next = cur.next.next
+
+        cur = cur.next 
+
+    return head
+'''
+
+
+'''
+    cur = head
+    
+    while cur: 
+        if cur.next:
+            print("the current value ", cur.val, " and the next value ", cur.next.val)
+
+            if cur.val == cur.next.val:
+                print("Duplicate found")
+                cur.next = cur.next.next
+
+        cur = cur.next 
+
+    return head
+'''
+
+
+
+'''
+
+deleteDuplicates(head)
+itr = answer
+print("The Answer ")
+while itr:
+    print(itr.val)
+    itr = itr.next
+
+'''
+
+
+
+def traverse(head):
+    itr = head
+
+    while itr:
+        print(itr.val)
+        itr = itr.next
+
+    print(" ")
+
+#From Video 
+def deleteDuplicatesTutorial(head):
     cur = head
     
     while cur: 
@@ -34,13 +125,15 @@ def deleteDuplicates(head):
 
         return head
 
-
+'''
 newHead = deleteDuplicates(head)
 itr = newHead
 
 while itr:
     print(itr.val)
     itr = itr.next
+'''
+
 
 '''
 node5 = Node(val="d", next=None)

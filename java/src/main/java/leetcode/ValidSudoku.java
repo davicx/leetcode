@@ -6,6 +6,8 @@ import java.util.Set;
 public class ValidSudoku {
     public static void main(String[] args) {
 
+        //This works but need to clear set after each row
+
         //char[][] board = {{'a'},{'b'}};
         char[][] board =
                 {{'5','3','.','.','7','.','.','.','.'}
@@ -42,34 +44,40 @@ public class ValidSudoku {
                 {'c','c','d','d'},
                 {'c','c','d','d'}};
 
-        isValidSudoku(board4);
+        Boolean answer = isValidSudoku(board);
+        System.out.println(answer);
     }
 
     public static boolean isValidSudoku(char[][] board) {
 
-        /*
         //Check Across
         System.out.println("Across");
-        checkAcross(board);
+        Boolean validAcross = checkAcross(board);
         System.out.println(" ");
+        if(validAcross == false) {
+            return false;
+        }
 
         //Check Down
         System.out.println("Down");
-        checkDown(board);
+        Boolean validDown = checkDown(board);
         System.out.println(" ");
-         */
+        if(validDown == false) {
+            return false;
+        }
 
         //Check Squares
         System.out.println("Down");
-        checkSquare(board,2,2);
+        Boolean validSquares = checkSquare(board,3,3);
         System.out.println(" ");
-
+        if(validSquares == false) {
+            return false;
+        }
 
         return true;
     }
 
     public static boolean checkSquare(char[][] board, int width, int height) {
-
         for (int i = 0; i < board.length; i = i + width) {
             for (int j = 0; j < board.length; j = j + height) {
                 int startWidth = i;
@@ -77,9 +85,9 @@ public class ValidSudoku {
                 int startHeight = j;
                 int endHeight = j + height;
 
-                System.out.println("width " + startWidth + "-" +  endWidth +  " height " + startHeight + "-" +  endHeight);
+                //System.out.println("width " + startWidth + "-" +  endWidth +  " height " + startHeight + "-" +  endHeight);
                 checkSmallBoard(board, startWidth, endWidth, startHeight, endHeight);
-                System.out.println(" ");
+                //System.out.println(" ");
             }
         }
 
@@ -88,13 +96,27 @@ public class ValidSudoku {
     }
 
     public static boolean checkSmallBoard(char[][] board, int startWidth, int endWidth, int startHeight, int endHeight) {
+        Set<Character> smallSet = new HashSet<Character>();
 
+        for (int i = startWidth; i < endWidth; i++) {
+            for (int j = startHeight; j < endHeight; j++) {
+                System.out.println(board[i][j]);
+                Character currentChar = board[j][i];
+                if(currentChar != '.') {
+                    if (smallSet.contains(currentChar)) {
+                        System.out.println("Duplicate!");
+                        return false;
+                    }
+                    smallSet.add(currentChar);
+                }
+
+            }
+        }
+
+        System.out.println(" ");
         return true;
 
-
     }
-
-
 
     public static boolean checkAcross(char[][] board) {
         for (int i = 0; i < board.length; i++) {
@@ -104,12 +126,13 @@ public class ValidSudoku {
 
                 Character currentChar = board[i][j];
                 System.out.print(currentChar + " ");
-
-                if (acrossSet.contains(currentChar)) {
-                    //System.out.println("Duplicate!");
+                if(currentChar != '.') {
+                    if (acrossSet.contains(currentChar)) {
+                        System.out.println("Duplicate!");
+                        return false;
+                    }
+                    acrossSet.add(currentChar);
                 }
-                acrossSet.add(currentChar);
-
             };
             System.out.println(" ");
         }
@@ -124,10 +147,13 @@ public class ValidSudoku {
                 //System.out.print("[" + j + "," + i + "]");
                 Character currentChar = board[j][i];
                 System.out.print(currentChar + " ");
-                if (downSet.contains(currentChar)) {
-                    //System.out.println("Duplicate!");
+                if(currentChar != '.') {
+                    if (downSet.contains(currentChar)) {
+                        System.out.println("Duplicate!");
+                        return false;
+                    }
+                    downSet.add(currentChar);
                 }
-                downSet.add(currentChar);
             };
             System.out.println(" ");
         }
@@ -139,8 +165,3 @@ public class ValidSudoku {
 
 }
 
-
-/*
-
-
- */

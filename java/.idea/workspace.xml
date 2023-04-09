@@ -43,13 +43,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ValidSudoku">
-    <configuration name="LearnPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.LearnPriorityQueue" />
+  <component name="RunManager" selected="Application.runLRUCache">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Leetcode.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.SimpleNode" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.*" />
+          <option name="PATTERN" value="data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharactersByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.SortCharactersByFrequency" />
+    <configuration name="runLRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.runLRUCache" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TopFrequentElements" />
+    <configuration name="simpleAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.simpleAbstract" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,25 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TopKFrequentElements" />
+    <configuration name="simplePolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.simplePolymorphism" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ValidSudoku" />
-      <module name="Leetcode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidSudoku" />
-        <item itemvalue="Application.SortCharactersByFrequency" />
-        <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.TopFrequentElements" />
-        <item itemvalue="Application.LearnPriorityQueue" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleNode" />
+        <item itemvalue="Application.runLRUCache" />
+        <item itemvalue="Application.simpleAbstract" />
+        <item itemvalue="Application.simplePolymorphism" />
       </list>
     </recent_temporary>
   </component>
