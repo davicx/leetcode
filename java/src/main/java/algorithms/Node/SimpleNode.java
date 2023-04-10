@@ -1,4 +1,4 @@
-package data;
+package algorithms.Node;
 
 public class SimpleNode {
     public static void main(String[] args) {
@@ -10,16 +10,16 @@ public class SimpleNode {
 }
 
 class ListNode {
-     String val;
-     ListNode next;
-     ListNode() {
+    String val;
+    ListNode next;
+    ListNode() {
 
-     }
-     ListNode(String val) {
-         this.val = val;
-     }
-     ListNode(String val, ListNode next) {
-         this.val = val;
-         this.next = next;
-     }
+    }
+    ListNode(String val) {
+        this.val = val;
+    }
+    ListNode(String val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
 }

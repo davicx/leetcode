@@ -4,15 +4,16 @@ import java.util.ArrayList;
 
 public class runLRUCache {
     public static void main(String[] args) {
-        LRUCache myCache = new LRUCache(3);
+        LRUCache myCache = new LRUCache(4);
         myCache.put("A", "The value is A");
         myCache.put("B", "The value is B");
         myCache.put("C", "The value is C");
+        myCache.put("D", "The value is D");
 
 
         myCache.displayItems();
-        String value = myCache.get("B");
-        System.out.println("we found the value " + value);
+        String value = myCache.get("A");
+        //System.out.println("we found the value " + value);
         System.out.println(" ");
         myCache.displayItems();
 
@@ -51,6 +52,9 @@ class LRUCache {
                 currentItem.lastUsed = 1;
             } else {
                 System.out.println("adjust all the others");
+                if(currentItem.lastUsed < this.capacity) {
+                    currentItem.lastUsed = currentItem.lastUsed + 1;
+                }
                 /*
                 else if (item.lastUsed > currentItem.lastUsed) {
                     System.out.println("else if ");
@@ -61,14 +65,11 @@ class LRUCache {
                 } else {
 
                 }
-
                  */
             }
-
             //System.out.println("Need to update " + itemKey);
             //item.lastUsed = item.lastUsed + 1;
         }
-
 
         //System.out.println("Updating " + itemKey);
     }
@@ -78,7 +79,7 @@ class LRUCache {
         Integer currentSize = items.size();
         //System.out.println("PUT: Adding a new item to the LRU Cache");
 
-        if(currentSize > 3) {
+        if(currentSize > this.capacity) {
             //System.out.println("Need to remove ");
         } else {
             //System.out.println("Ok to add");

@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.runLRUCache">
+  <component name="RunManager" selected="Application.MyLinkedList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Leetcode.main" />
@@ -51,12 +51,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.SimpleNode" />
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.Node.LinkedList.MyLinkedList" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="algorithms.Node.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleNode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.Node.SimpleNode" />
+      <module name="Leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.Node.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.SimpleNode" />
+      <module name="Leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,39 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simpleAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.simpleAbstract" />
-      <module name="Leetcode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simplePolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.simplePolymorphism" />
-      <module name="Leetcode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.SimpleNode (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SimpleNode" />
         <item itemvalue="Application.runLRUCache" />
-        <item itemvalue="Application.simpleAbstract" />
-        <item itemvalue="Application.simplePolymorphism" />
       </list>
     </recent_temporary>
   </component>

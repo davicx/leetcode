@@ -1,6 +1,8 @@
-data/SimpleNode.java
- data.ListNode
- data.SimpleNode
+language/simplePolymorphism.java
+ language.Bowman
+ language.Legolas
+ language.MainHero
+ language.simplePolymorphism
 leetcode/Main.java
  leetcode.Main
 language/SimpleClass.java
@@ -28,8 +30,8 @@ language/SimpleInheritance.java
  language.Hero
  language.Person
  language.SimpleInheritance
-Main.java
- Main
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue
 learning/User.java
  learning.User
 tools/CountWords.java
@@ -52,14 +54,14 @@ master/MasterSort.java
  master.MasterSort
 master/MasterAllWorkFromBefore.java
  master.MasterAllWorkFromBefore
-language/simplePolymorphism.java
- language.Bowman
- language.Legolas
- language.MainHero
- language.simplePolymorphism
-learning/LearnPriorityQueue.java
- learning.LearnPriorityQueue
+Main.java
+ Main
+algorithms/Node/SimpleNode.java
+ algorithms.Node.ListNode
+ algorithms.Node.SimpleNode
 leetcode/runLRUCache.java
  leetcode.Item
  leetcode.LRUCache
  leetcode.runLRUCache
+algorithms/Node/LinkedList/MyLinkedList.java
+ algorithms.Node.LinkedList.MyLinkedList
