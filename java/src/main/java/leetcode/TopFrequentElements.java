@@ -1,9 +1,5 @@
 package leetcode;
 
-import learning.User;
-
-import java.util.*;
-
 //WORKS
 
 public class TopFrequentElements {

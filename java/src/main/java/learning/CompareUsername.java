@@ -1,12 +1,11 @@
 package learning;
 
 import java.util.Comparator;
-import java.util.Objects;
 
-public class CompareUsername implements Comparator<User> {
+public class CompareUsername implements Comparator<AUser> {
 
     @Override
-    public int compare(User u1, User u2) {
+    public int compare(AUser u1, AUser u2) {
         if(u1.getUserName().compareTo(u2.getUserName()) > 1) {
             return 1;
         } else if (u1.getUserName().compareTo(u2.getUserName()) < 1) {

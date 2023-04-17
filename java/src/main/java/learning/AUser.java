@@ -1,13 +1,10 @@
 package learning;
 
-import java.util.Objects;
-
-public class User implements Comparable<User> {
+public class AUser implements Comparable<AUser> {
     private Integer userID;
     private String userName;
 
-
-    public User(String userName) {
+    public AUser(String userName) {
         this.userName = userName;
     }
 
@@ -37,7 +34,7 @@ public class User implements Comparable<User> {
     }
 
     @Override
-    public int compareTo(User o) {
+    public int compareTo(AUser o) {
         //Objects.equals("test", new String("test"))
         return o.userID > this.userID ? 1 : -1;
 

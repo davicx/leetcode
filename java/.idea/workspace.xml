@@ -43,20 +43,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Leetcode.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.Node.LinkedList.MyLinkedList" />
+  <component name="RunManager" selected="Application.SortObject">
+    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinaryTree.InOrderTraversal" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.Node.LinkedList.*" />
+          <option name="PATTERN" value="algorithms.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleNode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.Node.SimpleNode" />
+    <configuration name="SortObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tools.SortObject" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.Node.*" />
+          <option name="PATTERN" value="tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.SimpleNode" />
+    <configuration name="leetcodeLRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcodeLRUCache" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runLRUCacheTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.runLRUCacheTwo" />
+      <module name="Leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.SimpleNode (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SimpleNode" />
+        <item itemvalue="Application.SortObject" />
+        <item itemvalue="Application.leetcodeLRUCache" />
+        <item itemvalue="Application.runLRUCacheTwo" />
         <item itemvalue="Application.runLRUCache" />
+        <item itemvalue="Application.InOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -123,5 +129,16 @@
       <updated>1675729616054</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/master/MasterSort.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,27 +1,19 @@
-language/simplePolymorphism.java
- language.Bowman
- language.Legolas
- language.MainHero
- language.simplePolymorphism
-leetcode/Main.java
- leetcode.Main
 language/SimpleClass.java
  language.SimpleClass
  language.User
-leetcode/SortCharactersByFrequency.java
- leetcode.CharCount
- leetcode.CompareChar
- leetcode.SortCharactersByFrequency
+algorithms/BinaryTree/SimpleBinaryTree.java
+ algorithms.BinaryTree.SimpleBinaryTree
+ algorithms.BinaryTree.TreeNode
 learning/CompareUserID.java
  learning.CompareUserID
-leetcode/TopFrequentElements.java
- leetcode.TopFrequentElements
+leetcode/runLRUCacheTwo.java
+ leetcode.Item
+ leetcode.LRUCacheString
+ leetcode.runLRUCacheTwo
 language/simpleInterface.java
  language.Dwarf
  language.OceanDwarf
  language.simpleInterface
-learning/CompareUsername.java
- learning.CompareUsername
 language/simpleAbstract.java
  language.Elf
  language.WoodElf
@@ -30,38 +22,60 @@ language/SimpleInheritance.java
  language.Hero
  language.Person
  language.SimpleInheritance
-learning/LearnPriorityQueue.java
- learning.LearnPriorityQueue
-learning/User.java
- learning.User
+Main.java
+ Main
+learning/AUser.java
+ learning.AUser
 tools/CountWords.java
  tools.CountWords
 leetcode/ValidSudoku.java
  leetcode.ValidSudoku
 tools/aPriorityQueue.java
  tools.aPriorityQueue
-language/SimpleInnerClass.java
- language.OuterClass
- language.OuterClass$InnerClass
- language.SimpleInnerClass
 leetcode/TopKFrequentElements.java
  leetcode.CompareCount
  leetcode.Num
  leetcode.TopKFrequentElements
+master/MasterAllWorkFromBefore.java
+ master.MasterAllWorkFromBefore
+language/simplePolymorphism.java
+ language.Bowman
+ language.Legolas
+ language.MainHero
+ language.simplePolymorphism
+algorithms/Node/SimpleNode.java
+ algorithms.Node.ListNode
+ algorithms.Node.SimpleNode
+leetcode/Main.java
+ leetcode.Main
+leetcode/SortCharactersByFrequency.java
+ leetcode.CharCount
+ leetcode.CompareChar
+ leetcode.SortCharactersByFrequency
+leetcode/TopFrequentElements.java
+ leetcode.TopFrequentElements
+learning/CompareUsername.java
+ learning.CompareUsername
+leetcode/runLRUCache.java
+ leetcode.runLRUCache
+algorithms/BinaryTree/InOrderTraversal.java
+ algorithms.BinaryTree.InOrderTraversal
+algorithms/simpleRecursion.java
+ algorithms.simpleRecursion
+language/SimpleInnerClass.java
+ language.OuterClass
+ language.OuterClass$InnerClass
+ language.SimpleInnerClass
+leetcode/leetcodeLRUCache.java
+ leetcode.ItemInt
+ leetcode.LRUCache
+ leetcode.leetcodeLRUCache
 tools/MultiThreading.java
  tools.MultiThreading
 master/MasterSort.java
  master.MasterSort
-master/MasterAllWorkFromBefore.java
- master.MasterAllWorkFromBefore
-Main.java
- Main
-algorithms/Node/SimpleNode.java
- algorithms.Node.ListNode
- algorithms.Node.SimpleNode
-leetcode/runLRUCache.java
- leetcode.Item
- leetcode.LRUCache
- leetcode.runLRUCache
-algorithms/Node/LinkedList/MyLinkedList.java
- algorithms.Node.LinkedList.MyLinkedList
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue
+tools/SortObject.java
+ tools.SortObject
+ tools.User

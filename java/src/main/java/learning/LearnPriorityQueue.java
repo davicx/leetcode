@@ -12,13 +12,13 @@ public class LearnPriorityQueue {
         //myQueue.add(1);
         //System.out.println(myQueue);
         //PriorityQueue<User> users = new PriorityQueue<>(new CompareUsername());
-        PriorityQueue<User> users = new PriorityQueue<>(new CompareUserID());
+        PriorityQueue<AUser> AUsers = new PriorityQueue<>(new CompareUserID());
 
-        User davey = new User("davey");
-        User frodo = new User("frodo");
-        User sam = new User("sam");
-        User merry = new User("merry");
-        User pippin = new User("pippin");
+        AUser davey = new AUser("davey");
+        AUser frodo = new AUser("frodo");
+        AUser sam = new AUser("sam");
+        AUser merry = new AUser("merry");
+        AUser pippin = new AUser("pippin");
 
         davey.setUserID(1);
         frodo.setUserID(2);
@@ -26,24 +26,24 @@ public class LearnPriorityQueue {
         merry.setUserID(4);
         pippin.setUserID(5);
 
-        users.add(sam);
-        users.add(davey);
-        users.add(frodo);
-        users.add(pippin);
-        users.add(merry);
+        AUsers.add(sam);
+        AUsers.add(davey);
+        AUsers.add(frodo);
+        AUsers.add(pippin);
+        AUsers.add(merry);
 
         //System.out.println(users.poll());
-        Iterator value = users.iterator();
+        Iterator value = AUsers.iterator();
 
         while (value.hasNext()) {
             System.out.println(value.next());
         }
         System.out.println("");
-        System.out.println(users.poll());
-        System.out.println(users.poll());
-        System.out.println(users.poll());
-        System.out.println(users.poll());
-        System.out.println(users.poll());
+        System.out.println(AUsers.poll());
+        System.out.println(AUsers.poll());
+        System.out.println(AUsers.poll());
+        System.out.println(AUsers.poll());
+        System.out.println(AUsers.poll());
 
 
 

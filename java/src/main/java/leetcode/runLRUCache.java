@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class runLRUCache {
     public static void main(String[] args) {
+
+        /*
+
         LRUCache myCache = new LRUCache(4);
         myCache.put("A", "The value is A");
         myCache.put("B", "The value is B");
@@ -11,15 +14,35 @@ public class runLRUCache {
         myCache.put("D", "The value is D");
 
 
-        myCache.displayItems();
-        String value = myCache.get("A");
+        ArrayList<String> users = new ArrayList<String>();
+        users.add("sam");
+        users.add("frodo");
+        users.add("david");
+        users.get(0);
+        users.set(0, "merry");
+
+        for (int i = 0; i < users.size(); i++) {
+            System.out.println(users.get(i));
+        }
+        users.remove("frodo");
+
+        System.out.println("");
+        for (int i = 0; i < users.size(); i++) {
+            System.out.println(users.get(i));
+        }
+
+        */
+
+        //myCache.displayItems();
+        //String value = myCache.get("A");
         //System.out.println("we found the value " + value);
-        System.out.println(" ");
-        myCache.displayItems();
+        //System.out.println(" ");
+        //myCache.displayItems();
 
     }
 }
 
+/*
 class LRUCache {
     public Integer capacity;
     ArrayList<Item> items;
@@ -55,7 +78,7 @@ class LRUCache {
                 if(currentItem.lastUsed < this.capacity) {
                     currentItem.lastUsed = currentItem.lastUsed + 1;
                 }
-                /*
+
                 else if (item.lastUsed > currentItem.lastUsed) {
                     System.out.println("else if ");
                     currentItem.lastUsed = currentItem.lastUsed - 1;
@@ -65,7 +88,7 @@ class LRUCache {
                 } else {
 
                 }
-                 */
+
             }
             //System.out.println("Need to update " + itemKey);
             //item.lastUsed = item.lastUsed + 1;
@@ -116,7 +139,4 @@ class Item {
 }
 
 
-//LRUCache obj = new LRUCache(capacity);
-//int param_1 = obj.get(key);
-//obj.put(key,value);
-
+*/
