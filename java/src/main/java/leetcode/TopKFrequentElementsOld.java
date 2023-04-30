@@ -1,20 +1,27 @@
 package leetcode;
 
-//WORKS
+import java.util.*;
 
-public class TopFrequentElements {
+//SOLVED
+public class TopKFrequentElementsOld {
     public static void main(String[] args) {
         int k = 2;
         int[] nums = { 1,1,1,2,2,3,4,4,4,4,5,7,7,7 };
-        //Input:  = [], k = 2
-        //Output: [1,2]
 
-        //topKFrequent(nums, k);
-
+        int[] answerArray = topKFrequent(nums, k);
+        for(int answer : answerArray) {
+            System.out.println(answer);
+        }
 
     }
-/*
+
     public static int[] topKFrequent(int[] nums, int k) {
+        int[] answer = new int[k];
+
+        if(nums.length == 1) {
+            return nums;
+        }
+        
         Map<Integer, Integer> mapCount = new HashMap<>();
         int maxOne = 0;
         int maxTwo = 0;
@@ -47,57 +54,20 @@ public class TopFrequentElements {
         System.out.println("");
 
         //Poll them
-        for (int i = 0; i < numQueue.size(); i++) {
-            System.out.println(numQueue.poll().numIdentifier);
+        for (int i = 0; i < k; i++) {
+            String currentNumString = numQueue.poll().numIdentifier;
+            //System.out.println(currentNumString);
+            String[] currentNumArray = currentNumString.split("number");
+            System.out.println(currentNumString + " " + currentNumArray[1]);
+            int num = Integer.parseInt(currentNumArray[1]);
+            answer[i] = num;
         }
         System.out.println("");
 
-        return nums;
+        return answer;
     }
 
 
-    public static int[] longAnswer(int[] nums, int k) {
-        Map<Integer, Integer> mapCount = new HashMap<>();
-        int maxOne = 0;
-        int maxTwo = 0;
-
-        for(Integer number : nums) {
-            mapCount.put(number, mapCount.getOrDefault(number, 0) + 1);
-        }
-
-        //Create Array of Items
-        ArrayList<Num> numList = new ArrayList<Num>();
-
-        mapCount.entrySet().forEach(entry->{
-            String numIdentifier = "number" + entry.getKey();
-            numList.add(new Num(numIdentifier, entry.getValue()));
-        });
-
-        //Priority Queue
-        PriorityQueue<Num> numQueue = new PriorityQueue<>(new CompareCount());
-
-        mapCount.entrySet().forEach(entry->{
-            String numIdentifier = "number" + entry.getKey();
-            numQueue.add(new Num(numIdentifier, entry.getValue()));
-        });
-
-        //Print out not in Order
-        for (int i = 0; i < numQueue.size(); i++) {
-            System.out.println(numList.get(i).numIdentifier + " " + numList.get(i).numCount);
-        }
-
-        System.out.println("");
-
-        //Poll them
-        for (int i = 0; i < numQueue.size(); i++) {
-            System.out.println(numQueue.poll().numIdentifier);
-        }
-        System.out.println("");
-
-
-
-        return nums;
-    }
 
 }
 
@@ -129,7 +99,5 @@ class CompareCount implements Comparator<Num> {
             return 0;
         }
     }
-
- */
 }
 

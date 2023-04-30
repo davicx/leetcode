@@ -1,51 +1,37 @@
 package algorithms.BinaryTree;
-
-import com.sun.source.tree.Tree;
-
 import java.util.ArrayList;
 
-//O(n) space and time
-
 public class InOrderTraversal {
+        public static void main(String[] args) {
+            ArrayList<String> list = new ArrayList<String>();
 
-    public static void main(String[] args) {
-        TreeNode myTree = new TreeNode("1");
-        TreeNode rightNode = new TreeNode("2");
-        TreeNode rightLeftNode = new TreeNode("3");
+            TreeNode myTree = new TreeNode("1");
+            TreeNode rightNode = new TreeNode("2");
+            TreeNode rightLeftNode = new TreeNode("3");
 
-        myTree.right = rightNode;
-        myTree.right.left = rightLeftNode;
+            myTree.right = rightNode;
+            myTree.right.left = rightLeftNode;
 
+            ArrayList<String> answer = inOrder(myTree, list);
+            System.out.println(answer);
 
-        inOrder(myTree);
-    }
-
-
-    private static void inOrder(TreeNode root) {
-        if (root == null) {
-            return;
         }
 
-        inOrder(root.left);
-        System.out.println("Current Value " + root.val);
-        inOrder(root.right);
-    }
+        private static ArrayList<String> inOrder(TreeNode root, ArrayList<String> list) {
+            if (root == null) {
+                return list;
+            } else {
+                System.out.println("called Left: " + root.left + " Right: " + root.right);
+            }
 
+            inOrder(root.left, list);
+            System.out.println("Current Value " + root.val);
+            list.add(root.val);
 
+            inOrder(root.right, list);
 
-    public static ArrayList<String> iterative(ArrayList<String> root) {
-        ArrayList<String> answer = new ArrayList<String>();
-
-        return answer;
-
-    }
-
-    //public static ArrayList<String> inOrderSearch(ArrayList<String> root) {
-    public static ArrayList<String> inOrderSearch(TreeNode root) {
-        ArrayList<String> answer = new ArrayList<String>();
-        return answer;
-
-    }
+            return list;
+        }
 
 }
 

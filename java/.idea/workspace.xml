@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea85974d-b8ae-4eb3-9f1c-755a35e009ae" name="Default Changelist" comment="" />
+    <list default="true" id="ea85974d-b8ae-4eb3-9f1c-755a35e009ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/InOrderTraversalTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/PostOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/PreOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/SumOfLeftLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/LinkedList/leetcode/RemoveLinkedListElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/LinkedList/myLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/Node/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/language/simpleFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElementsOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/CountNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/InOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/InOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/SimpleBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/SimpleBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithms/BinaryTree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithms/Node/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/algorithms/Node/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/algorithms/Node/SimpleNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/CompareCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/CompareCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/Num.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/TopFrequentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/TopKFrequentElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/TopKFrequentElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tools/SortObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tools/SortObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tools/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tools/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tools/aPriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tools/aPriorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/InOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/SimpleBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/BinaryTree/SimpleBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/Node/SimpleNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/TopFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/TopFrequentElementsOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/SortObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SortObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/aPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/aPriorityQueue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SortObject">
+  <component name="RunManager" selected="Application.SumOfLeftLeaves">
     <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.BinaryTree.InOrderTraversal" />
       <module name="Leetcode.main" />
@@ -57,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tools.SortObject" />
+    <configuration name="InOrderTraversalTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinaryTree.InOrderTraversalTwo" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tools.*" />
+          <option name="PATTERN" value="algorithms.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcodeLRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcodeLRUCache" />
+    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.LinkedList.leetcode.RemoveLinkedListElements" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="algorithms.LinkedList.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runLRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.runLRUCache" />
+    <configuration name="SumOfLeftLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinaryTree.SumOfLeftLeaves" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="algorithms.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runLRUCacheTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.runLRUCacheTwo" />
+    <configuration name="simpleFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.simpleFunction" />
       <module name="Leetcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="language.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortObject" />
-        <item itemvalue="Application.leetcodeLRUCache" />
-        <item itemvalue="Application.runLRUCacheTwo" />
-        <item itemvalue="Application.runLRUCache" />
+        <item itemvalue="Application.SumOfLeftLeaves" />
         <item itemvalue="Application.InOrderTraversal" />
+        <item itemvalue="Application.InOrderTraversalTwo" />
+        <item itemvalue="Application.RemoveLinkedListElements" />
+        <item itemvalue="Application.simpleFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +173,18 @@
       <updated>1675729616054</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

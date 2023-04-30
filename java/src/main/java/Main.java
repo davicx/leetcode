@@ -1,9 +1,6 @@
 import org.w3c.dom.ls.LSOutput;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,11 +22,19 @@ public class Main {
         users.add("sam");
         users.add("frodo");
         users.add("david");
-        users.get(0);
-        users.set(0, "merry");
+        //users.get(0);
+        //users.set(0, "merry");
         //users.clear();
         for (String user : users) {
-            //System.out.println(user);
+            System.out.println(user);
+        }
+
+        Collections.sort(users);
+        System.out.println("");
+        //Collections.reverse(users);
+
+        for (String user : users) {
+            System.out.println(user);
         }
 
         //Hash Map
@@ -52,11 +57,36 @@ public class Main {
         //friends.empty();
         //friends.get(0);
         for (int i = 0; i < friends.size(); i++) {
-            System.out.println(friends.get(i));
+            //System.out.println(friends.get(i));
         }
 
-
         //Queue
+        Queue<String> queue = new LinkedList<>();
+
+        // add elements to the queue
+        queue.add("apple");
+        queue.add("banana");
+        queue.add("cherry");
+
+        // print the queue
+        System.out.println("Queue: " + queue);
+
+        // remove the element at the front of the queue
+        String front = queue.remove();
+        System.out.println("Removed element: " + front);
+
+        // print the updated queue
+        System.out.println("Queue after removal: " + queue);
+
+        // add another element to the queue
+        queue.add("date");
+
+        // peek at the element at the front of the queue
+        String peeked = queue.peek();
+        System.out.println("Peeked element: " + peeked);
+
+        // print the updated queue
+        System.out.println("Queue after peek: " + queue);
 
 
     }

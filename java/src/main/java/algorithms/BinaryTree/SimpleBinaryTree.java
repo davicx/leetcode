@@ -16,28 +16,11 @@ public class SimpleBinaryTree {
         }
 
 
-
         if(myTree.left.right == null) {
             System.out.println("none!");
         } else {
             System.out.println(myTree.left.right.val);
         }
 
-
-
-
-
-    }
-}
-
-class TreeNode {
-    public String val;
-    public TreeNode left;
-    public TreeNode right;
-
-    public TreeNode(String val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
     }
 }
