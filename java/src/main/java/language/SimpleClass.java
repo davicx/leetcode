@@ -20,7 +20,6 @@ class User {
         this.location = location;
     }
 
-
     //Get Username
     public String getUserName() {
         System.out.println(userName);

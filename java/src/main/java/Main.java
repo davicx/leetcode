@@ -15,6 +15,7 @@ public class Main {
         //Array
         int[] myArray = new int[3];
         String[] currentUsers = {"david", "sam", "bilbo"};
+
         //System.out.println(currentUsers.length);
 
         //Array List (Resizable)

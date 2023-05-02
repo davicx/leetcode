@@ -20,15 +20,11 @@ public class PreOrderTraversal {
     private static ArrayList<String> preOrder(TreeNode root, ArrayList<String> list) {
         if (root == null) {
             return list;
-        } else {
-            System.out.println("called Left: " + root.left + " Right: " + root.right);
         }
-
-        inOrder(root.left, list);
-        System.out.println("Current Value " + root.val);
         list.add(root.val);
 
-        inOrder(root.right, list);
+        preOrder(root.left, list);
+        preOrder(root.right, list);
 
         return list;
     }

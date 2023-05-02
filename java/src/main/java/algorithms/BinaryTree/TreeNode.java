@@ -11,3 +11,5 @@ public class TreeNode {
         this.right = null;
     }
 }
+
+//System.out.println(root.val + " " + root.right.val + " " + root.left.val);
