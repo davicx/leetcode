@@ -23,6 +23,7 @@ public class Main {
         users.add("sam");
         users.add("frodo");
         users.add("david");
+        users.size();
         //users.get(0);
         //users.set(0, "merry");
         //users.clear();
