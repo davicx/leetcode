@@ -2,28 +2,13 @@ package threading;
 
 public class MainThreads {
     //Two Ways
-    //1) Extend Thread Class (Inherit)
-    //2)
 
     public static void main(String[] args) {
         MultiThreadInherit myThread = new MultiThreadInherit(1);
         MultiThreadInherit myThreadTwo = new MultiThreadInherit(2);
         myThread.start();
-        //myThreadTwo.start();
-        //manyThreads();
+        myThreadTwo.start();
 
-        //useInterface();
-
-        //Important Methods
-        /*
-        myThread.start();
-        myThread.isAlive();
-        try {
-            myThread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-         */
 
 
     }
@@ -42,3 +27,20 @@ public class MainThreads {
     }
 
 }
+
+/*
+        //myThreadTwo.start();
+        //manyThreads();
+
+        //useInterface();
+
+        //Important Methods
+        /*
+        myThread.start();
+        myThread.isAlive();
+        try {
+            myThread.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+         */

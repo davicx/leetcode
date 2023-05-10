@@ -10,11 +10,9 @@ public class MainCards {
         Card one = new Card( "Hearts", 1, 1);
         Card two = new Card( "Spades", 2, 2);
         Card three = new Card( "Hearts", 3, 3);
-        Card four = new Card( "Hearts", 4, 4);
-        Card five = new Card( "Hearts", 5, 5);
+
         ArrayList<Card> deck = new ArrayList<Card>();
-        deck.add(four);
-        deck.add(five);
+
         deck.add(one);
         deck.add(two);
         deck.add(three);
@@ -28,6 +26,13 @@ public class MainCards {
         deck.forEach((card)->System.out.println(card.suit + " " + card.rank));
     }
 }
+
+/*
+Card four = new Card( "Hearts", 4, 4);
+Card five = new Card( "Hearts", 5, 5);
+deck.add(four);
+deck.add(five);
+ */
 
 
 

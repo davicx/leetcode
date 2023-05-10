@@ -5,7 +5,6 @@ public class Card {
     public Integer rank;
     public Integer number;
 
-
     public Card(String suit, Integer rank, Integer number) {
         this.suit = suit;
         this.rank = rank;
@@ -20,8 +19,13 @@ public class Card {
         return rank;
     }
 
+    public void setRank(Integer rank) {
+        this.rank = rank;
+    }
+
     public Integer getNumber() {
         return number;
     }
+
 }
 

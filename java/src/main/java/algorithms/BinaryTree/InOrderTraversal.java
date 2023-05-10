@@ -32,7 +32,6 @@ public class InOrderTraversal {
 
             return list;
         }
-
 }
 
 
