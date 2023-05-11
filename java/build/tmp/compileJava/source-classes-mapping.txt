@@ -134,3 +134,7 @@ algorithms/BinaryTree/RangeSumOfBST.java
  algorithms.BinaryTree.RangeSumOfBST
 algorithms/Recursion/MainRecursion.java
  algorithms.Recursion.MainRecursion
+algorithms/BinaryTree/LearnRangeSumBST.java
+ algorithms.BinaryTree.LearnRangeSumBST
+algorithms/BinaryTree/TreeNodeInt.java
+ algorithms.BinaryTree.TreeNodeInt

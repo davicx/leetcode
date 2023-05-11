@@ -23,17 +23,9 @@ public class LearnRangeSumBST {
         myTree.left.right = leftRightNode;
         myTree.right.right = rightRightNode;
 
-        /*
-        ArrayList<String> answer = findSumBST(myTree, list);
+        Integer answer = rangeSumBST(myTree, 7,15);
         System.out.println(answer);
-        Integer answerSum = 0;
 
-        for (String i : answer){
-            Integer currentValue = Integer.parseInt(i);
-            answerSum = answerSum + currentValue;
-        }
-        System.out.println(answerSum);
-        */
     }
 
     private static Integer rangeSumBST(TreeNodeInt root, Integer L, Integer R) {
@@ -48,37 +40,18 @@ public class LearnRangeSumBST {
         while (!queue.isEmpty()) {
             TreeNodeInt current = queue.remove();
             System.out.println("Queue Size: " + queue.size());
-
-        }
-
-
-        /*
-        while (!queue.isEmpty()) {
-
-            Integer size = queue.size();
-            ArrayList <String> currentLevel = new ArrayList<>();
-
-            for(int i = 0; i < size; i++) {
-                TreeNode current = queue.remove();
-                currentLevel.add(current.val);
-                if (current.left != null) {
-                    queue.add(current.left);
-                }
-                if (current.right != null) {
-                    queue.add(current.right);
-                }
+            if(current.val >= L && current.val <= R) {
+                sum += current.val;
             }
-            result.add(currentLevel);
+            if(current.left != null && current.val > L) {
+                queue.add(current.left);
+            }
+            if(current.right != null && current.val < R) {
+                queue.add(current.right);
+            }
         }
-         */
 
-
-        return 0;
-
+        return sum;
 
     }
-
-
-
-
 }
