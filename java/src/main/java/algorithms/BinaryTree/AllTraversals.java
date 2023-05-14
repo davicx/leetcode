@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-//Complexity O(n)
-public class LevelOrderTraversal {
+public class AllTraversals {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
 
@@ -21,6 +20,9 @@ public class LevelOrderTraversal {
         myTree.right.right = rightRightNode;
         myTree.right.left = rightLeftNode;
 
+        //In Order
+        ArrayList<String> answer = inOrder(myTree, list);
+        System.out.println(answer);
 
         //Level Order
         ArrayList<ArrayList<String>> levelAnswer = levelOrder(myTree);
@@ -29,7 +31,7 @@ public class LevelOrderTraversal {
 
     }
 
-    //Level Order Traversal
+    //Level Order Traversal (Type 1 )
     public static ArrayList<ArrayList<String>> levelOrder(TreeNode root) {
         ArrayList<ArrayList<String>> result = new ArrayList<>();
 
@@ -61,7 +63,24 @@ public class LevelOrderTraversal {
         return result;
     }
 
+    //In Order Traversal
+    private static ArrayList<String> inOrder(TreeNode root, ArrayList<String> list) {
+        if (root == null) {
+            return list;
+        } else {
+            System.out.println("called Left: " + root.left + " Right: " + root.right);
+        }
+
+        inOrder(root.left, list);
+        System.out.println("Current Value " + root.val);
+        list.add(root.val);
+
+        inOrder(root.right, list);
+
+        return list;
+    }
 
 }
+
 
 

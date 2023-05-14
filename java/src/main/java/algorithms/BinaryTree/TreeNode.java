@@ -10,6 +10,8 @@ public class TreeNode {
         this.left = null;
         this.right = null;
     }
+
+
 }
 
 //System.out.println(root.val + " " + root.right.val + " " + root.left.val);

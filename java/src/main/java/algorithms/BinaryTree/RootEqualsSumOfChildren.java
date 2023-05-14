@@ -1,8 +1,6 @@
 package algorithms.BinaryTree;
 
 
-import java.util.ArrayList;
-
 public class RootEqualsSumOfChildren {
 
     public static void main(String[] args) {

@@ -6,11 +6,12 @@ public class InOrderTraversal {
             ArrayList<String> list = new ArrayList<String>();
 
             TreeNode myTree = new TreeNode("1");
-            TreeNode rightNode = new TreeNode("2");
-            TreeNode rightLeftNode = new TreeNode("3");
+            TreeNode leftNode = new TreeNode("2");
+            TreeNode rightNode = new TreeNode("3");
+            //TreeNode rightLeftNode = new TreeNode("3");
 
             myTree.right = rightNode;
-            myTree.right.left = rightLeftNode;
+            myTree.left = rightNode;
 
             ArrayList<String> answer = inOrder(myTree, list);
             System.out.println(answer);
