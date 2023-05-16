@@ -16,8 +16,6 @@ public class Main {
         int[] myArray = new int[3];
         String[] currentUsers = {"david", "sam", "bilbo"};
 
-        //System.out.println(currentUsers.length);
-
         //Array List (Resizable)
         ArrayList<String> users = new ArrayList<String>();
         users.add("sam");
@@ -39,13 +37,16 @@ public class Main {
             System.out.println(user);
         }
 
+        //Set
+        Set<Integer> mySet = new HashSet<Integer>();
+
         //Hash Map
         int[] nums = {2, 7, 11, 15};
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> myMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], i);
+            myMap.put(nums[i], i);
         }
-        map.entrySet().forEach(entry->{
+        myMap.entrySet().forEach(entry->{
             //System.out.println(entry.getKey() + " " + entry.getValue());
         });
 

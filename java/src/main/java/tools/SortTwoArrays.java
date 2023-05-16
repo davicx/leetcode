@@ -4,6 +4,26 @@ import java.util.*;
 
 public class SortTwoArrays {
     public static void main(String[] args) {
+        ArrayList<ArrayList<Integer>> intervals = createIntervals();
+
+        //TYPE 1: Sort Integers
+        System.out.println(intervals);
+        Collections.sort(intervals, Comparator.comparing(o -> o.get(0)));
+        System.out.println(intervals);
+
+        //Type 2: Sort Strings
+        ArrayList<ArrayList<String>> namesAndNumbers = createStrings();
+        System.out.println(namesAndNumbers);
+        //Collections.sort(namesAndNumbers, (o1, o2) -> o1.get(0).compareTo(o2.get(0)));
+        Collections.sort(namesAndNumbers, Comparator.comparing(o -> o.get(0)));
+        System.out.println(namesAndNumbers);
+
+
+
+    }
+
+    public static ArrayList<ArrayList<Integer>> createIntervals() {
+
         //intervals = [[1,3],[2,6],[8,10],[15,18]]
         ArrayList<ArrayList<Integer>> intervals = new ArrayList<>();
         ArrayList<Integer> one = new ArrayList<>();
@@ -19,16 +39,26 @@ public class SortTwoArrays {
         intervals.add(one);
         intervals.add(two);
 
-        //System.out.println(intervals);
+        return intervals;
 
-        //Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
-        //Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        //Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        //Arrays.sort(data, (String[] s1, String[] s2) -> s1[0].compareTo(s2[0]));
+    }
+
+    public static ArrayList<ArrayList<String>> createStrings() {
+        ArrayList<ArrayList<String>> namesAndNumbers = new ArrayList<ArrayList<String>>();
+        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("Mike", "(805) 766-4920")));
+        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("Emily", "(705) 668-9292", "(705) 555-1060")));
+        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("James", "(605) 965-2000")));
 
 
-        //Integers
+        return namesAndNumbers;
 
+    }
+
+}
+
+
+//Integers
+        /*
         List<ArrayList<Integer>> numbers = new ArrayList<ArrayList<Integer>>();
         numbers.add(new ArrayList<Integer>(Arrays.asList(1,1)));
         numbers.add(new ArrayList<Integer>(Arrays.asList(3,3)));
@@ -37,19 +67,20 @@ public class SortTwoArrays {
         Collections.sort(numbers, (o1, o2) -> o1.get(0).compareTo(o2.get(0)));
         System.out.println(numbers);
         System.out.println(" ");
+         */
 
-        //Strings
-        List<ArrayList<String>> namesAndNumbers = new ArrayList<ArrayList<String>>();
-        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("Mike", "(805) 766-4920")));
-        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("Emily", "(705) 668-9292", "(705) 555-1060")));
-        namesAndNumbers.add(new ArrayList<String>(Arrays.asList("James", "(605) 965-2000")));
+//Strings
+        /*
+
         System.out.println(namesAndNumbers);
         Collections.sort(namesAndNumbers, (o1, o2) -> o1.get(0).compareTo(o2.get(0)));
         System.out.println(namesAndNumbers);
+         */
+/*
+        //Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
 
+        //Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        //Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        //Arrays.sort(data, (String[] s1, String[] s2) -> s1[0].compareTo(s2[0]));
 
-
-
-    }
-
-}
+ */
