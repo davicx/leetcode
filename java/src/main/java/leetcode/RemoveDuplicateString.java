@@ -6,9 +6,9 @@ import java.util.Set;
 
 /*
 Notes:
-1) I spent from 5:06 to 5:27 so about 20 minutes I am going to look at it again tomorrow for errors
-2) In Java Chars and Strings are different so even though these look like primitive Chars they are String Objects
-3) We used a set for faster lookup time most likely O(1) without any collisions as opposed to O(2)
+1) I spent from 30 minutes finishing this up
+2) I used a set for faster lookup time most likely O(1) without any collisions as opposed to O(N)
+3) This could be cleaned a lot if I have extra variables like 'currentString' for readability 
  */
 public class RemoveDuplicateString {
     public static void main(String[] args) {
@@ -28,12 +28,21 @@ public class RemoveDuplicateString {
         ArrayList<ArrayList<String>> result = new ArrayList<>();
         Set<String> uniqueStringSet = new HashSet<String>();
 
+        if(inputArrays.size() == 0) {
+            return inputArrays;
+        }
+
         //STEP 1: Loop over both arrays so that we are going through things one 'Character' at a Time
         for (int i = 0; i < inputArrays.size(); i++) {
             ArrayList<String> resultSubArray = new ArrayList<>();
 
             for (int j = 0; j < inputArrays.get(i).size(); j++) {
                 String currentString = inputArrays.get(i).get(j);
+
+                if(currentString.length() > 1) {
+                    System.out.println("Please make sure the input is only 1 letter");
+                    return inputArrays;
+                }
 
                 //If the Set contains the value add empty quotes
                 if(uniqueStringSet.contains(currentString)) {
