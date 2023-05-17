@@ -4,6 +4,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        var hello = "hi";
+        System.out.println();
 
         //CONTROL
         //For Loop

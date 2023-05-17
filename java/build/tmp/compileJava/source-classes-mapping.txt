@@ -133,10 +133,12 @@ threading/MainThreads.java
  threading.MainThreads
 algorithms/BinaryTree/SimpleTraversal.java
  algorithms.BinaryTree.SimpleTraversal
+tools/SortList.java
+ tools.SortList
 algorithms/BinaryTree/LearnRangeSumBST.java
  algorithms.BinaryTree.LearnRangeSumBST
-learning/LearnPriorityQueue.java
- learning.LearnPriorityQueue
+leetcode/SortCharsAscending.java
+ leetcode.SortCharsAscending
 algorithms/BinaryTree/LevelOrderTraversal.java
  algorithms.BinaryTree.LevelOrderTraversal
 leetcode/RemoveDuplicateString.java
@@ -147,7 +149,5 @@ language/SimpleInnerClass.java
  language.SimpleInnerClass
 master/MasterSort.java
  master.MasterSort
-tools/SortList.java
- tools.SortList
-leetcode/SortCharsAscending.java
- leetcode.SortCharsAscending
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue

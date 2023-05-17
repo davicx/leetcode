@@ -5,10 +5,13 @@ public class simpleInterface {
         OceanDwarf gimli = new OceanDwarf();
         gimli.fight();
         gimli.sleep();
+        //gimli.hello = "ohh";
+        System.out.println(gimli.hello);
     }
 }
 
 interface Dwarf {
+    public String hello = "hiya";
     public void fight(); // interface method (does not have a body)
     public void run(); // interface method (does not have a body)
     default void defaultMethod() {
@@ -23,6 +26,7 @@ class OceanDwarf implements Dwarf {
 
     @Override
     public void run() {
+        System.out.println(hello);
         System.out.println("run");
 
     }
