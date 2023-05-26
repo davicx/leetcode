@@ -22,7 +22,7 @@ public class Main {
         //Class
         User davey = new User(1, "davey");
         Simple sam = new Simple("sam");
-        System.out.println(sam.getUserName());
+        System. out.println(sam.getUserName());
         
         //CONTROL
         //For Loop

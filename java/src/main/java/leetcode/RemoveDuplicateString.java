@@ -4,12 +4,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-/*
-Notes:
-1) I spent from 30 minutes finishing this up
-2) I used a set for faster lookup time most likely O(1) without any collisions as opposed to O(N)
-3) This could be cleaned a lot if I have extra variables like 'currentString' for readability
- */
 public class RemoveDuplicateString {
     public static void main(String[] args) {
 

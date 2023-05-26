@@ -19,7 +19,7 @@ class Person {
     }
 }
 
-class Hero extends Person {
+class  Hero extends Person {
     private String userName;
 
     public Hero(String race, String userName) {

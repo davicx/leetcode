@@ -31,6 +31,8 @@ threading/MultiThreadInherit.java
  threading.MultiThreadInherit
 algorithms/BinaryTree/SameTreeTwo.java
  algorithms.BinaryTree.SameTreeTwo
+leetcode/MergeIntervals.java
+ leetcode.MergeIntervals
 tools/User.java
  tools.User
 algorithms/BinaryTree/TreeNodeInt.java
@@ -109,6 +111,7 @@ algorithms/Recursion/MainRecursion.java
  algorithms.Recursion.MainRecursion$MyCurrentValue
 Main.java
  Main
+ Simple
 language/simpleFunction.java
  language.simpleFunction
 learning/AUser.java
@@ -133,6 +136,8 @@ threading/MainThreads.java
  threading.MainThreads
 algorithms/BinaryTree/SimpleTraversal.java
  algorithms.BinaryTree.SimpleTraversal
+leetcode/LargestNumber.java
+ leetcode.LargestNumber
 tools/SortList.java
  tools.SortList
 algorithms/BinaryTree/LearnRangeSumBST.java

@@ -18,8 +18,6 @@ public class SortTwoArrays {
         Collections.sort(namesAndNumbers, Comparator.comparing(o -> o.get(0)));
         System.out.println(namesAndNumbers);
 
-
-
     }
 
     public static ArrayList<ArrayList<Integer>> createIntervals() {
