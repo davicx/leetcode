@@ -21,6 +21,8 @@ algorithms/LinkedList/leetcode/RemoveLinkedListElements.java
  algorithms.LinkedList.leetcode.RemoveLinkedListElements
 algorithms/BinaryTree/PathSum.java
  algorithms.BinaryTree.PathSum
+leetcode/LongestPalindromeLength.java
+ leetcode.LongestPalindromeLength
 language/SimpleInheritance.java
  language.Hero
  language.Person
@@ -29,6 +31,8 @@ algorithms/BinaryTree/SearchBinaryTree.java
  algorithms.BinaryTree.SearchBinaryTree
 threading/MultiThreadInherit.java
  threading.MultiThreadInherit
+testing/MainLearn.java
+ testing.MainLearn
 algorithms/BinaryTree/SameTreeTwo.java
  algorithms.BinaryTree.SameTreeTwo
 leetcode/MergeIntervals.java
@@ -37,6 +41,8 @@ tools/User.java
  tools.User
 algorithms/BinaryTree/TreeNodeInt.java
  algorithms.BinaryTree.TreeNodeInt
+learning/LearnPriorityQueue.java
+ learning.LearnPriorityQueue
 leetcode/TopKFrequentElements.java
  leetcode.TopKFrequentElements
 language/simplePolymorphism.java
@@ -44,6 +50,8 @@ language/simplePolymorphism.java
  language.Legolas
  language.MainHero
  language.simplePolymorphism
+leetcode/LongestPalindrome.java
+ leetcode.LongestPalindrome
 leetcode/TopFrequentElementsOld.java
  leetcode.TopFrequentElementsOld
 leetcode/Main.java
@@ -124,6 +132,8 @@ tools/aPriorityQueue.java
  tools.aPriorityQueue
 tools/CountNumbers.java
  tools.CountNumbers
+leetcode/CombinationSum.java
+ leetcode.CombinationSum
 master/MasterAllWorkFromBefore.java
  master.MasterAllWorkFromBefore
 algorithms/BinaryTree/RootEqualsSumOfChildren.java
@@ -154,5 +164,5 @@ language/SimpleInnerClass.java
  language.SimpleInnerClass
 master/MasterSort.java
  master.MasterSort
-learning/LearnPriorityQueue.java
- learning.LearnPriorityQueue
+testing/Calculator.java
+ testing.Calculator
