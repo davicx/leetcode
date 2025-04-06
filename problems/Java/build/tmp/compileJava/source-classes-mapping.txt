@@ -1,4 +1,65 @@
+leetcode/RemoveDuplicatesfromSortedArray.java
+ leetcode.RemoveDuplicatesfromSortedArray
+leetcode/RelativeRanks.java
+ leetcode.RelativeRanks
+leetcode/ValidParentheses.java
+ leetcode.ValidParentheses
+leetcode/MaxConsecutiveOnesIII.java
+ leetcode.MaxConsecutiveOnesIII
+ leetcode.NumHolder
+leetcode/MaximumAverageSubarray.java
+ leetcode.MaximumAverageSubarray
+leetcode/GreatestCommonDivisorofStrings.java
+ leetcode.GreatestCommonDivisorofStrings
 Main.java
  Main
+ Simple
+leetcode/StringCompression.java
+ leetcode.StringCompression
+tools/User.java
+ tools.User
+tools/CountWords.java
+ tools.CountWords
+tools/aPriorityQueue.java
+ tools.aPriorityQueue
+tools/Tools.java
+ tools.Tools
+tools/Sorting.java
+ tools.Sorting
+tools/SlidingWindow.java
+ tools.SlidingWindow
+leetcode/SearchInsertPosition.java
+ leetcode.SearchInsertPosition
+leetcode/LastStoneWeight.java
+ leetcode.LastStoneWeight
 leetcode/IsSubsequence.java
  leetcode.IsSubsequence
+ leetcode.Output
+tools/Search.java
+ tools.Search
+leetcode/MaximumNumberOfVowelsInSubstringOGivenLength.java
+ leetcode.MaximumNumberOfVowelsInSubstringOGivenLength
+leetcode/UniqueNumberOfOccurrences.java
+ leetcode.UniqueNumberOfOccurrences
+leetcode/MaxNumberKSumPairs.java
+ leetcode.MaxNumberKSumPairs
+leetcode/ReverseWords.java
+ leetcode.ReverseWords
+leetcode/ContainerWithMostWater.java
+ leetcode.ContainerWithMostWater
+leetcode/KidsWithGreatestNumberOfCandies.java
+ leetcode.KidsWithGreatestNumberOfCandies
+leetcode/LongestSubarrayAfterDeletingOneElement.java
+ leetcode.LongestSubarrayAfterDeletingOneElement
+leetcode/MoveZeroes.java
+ leetcode.MoveZeroes
+leetcode/CanPlaceFlowers.java
+ leetcode.CanPlaceFlowers
+leetcode/FindtheDifferenceofTwoArrays.java
+ leetcode.FindtheDifferenceofTwoArrays
+leetcode/MergeStringsAlternately.java
+ leetcode.MergeStringsAlternately
+leetcode/ReverseVowelsOfString.java
+ leetcode.ReverseVowelsOfString
+leetcode/Notes.java
+ leetcode.Notes
