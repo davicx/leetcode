@@ -1,6 +1,6 @@
 package leetcode;
 
-//STATUS: Accepted
+//STATUS: Done and Accepted
 public class IsSubsequence {
     public static void main(String[] args) {
         //String s = "abc";

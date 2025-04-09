@@ -11,6 +11,8 @@ leetcode/MaximumAverageSubarray.java
  leetcode.MaximumAverageSubarray
 leetcode/GreatestCommonDivisorofStrings.java
  leetcode.GreatestCommonDivisorofStrings
+leetcode/Notes.java
+ leetcode.Notes
 Main.java
  Main
  Simple
@@ -39,6 +41,10 @@ tools/Search.java
  tools.Search
 leetcode/MaximumNumberOfVowelsInSubstringOGivenLength.java
  leetcode.MaximumNumberOfVowelsInSubstringOGivenLength
+language/AbstractExample.java
+ language.AbstractExample
+ language.Cat
+ language.Pet
 leetcode/UniqueNumberOfOccurrences.java
  leetcode.UniqueNumberOfOccurrences
 leetcode/MaxNumberKSumPairs.java
@@ -49,17 +55,27 @@ leetcode/ContainerWithMostWater.java
  leetcode.ContainerWithMostWater
 leetcode/KidsWithGreatestNumberOfCandies.java
  leetcode.KidsWithGreatestNumberOfCandies
+language/PolymorphismExample.java
+ language.Cow
+ language.FarmAnimal
+ language.Horse
+ language.PolymorphismExample
 leetcode/LongestSubarrayAfterDeletingOneElement.java
  leetcode.LongestSubarrayAfterDeletingOneElement
 leetcode/MoveZeroes.java
  leetcode.MoveZeroes
-leetcode/CanPlaceFlowers.java
- leetcode.CanPlaceFlowers
+language/PassByValue.java
+ language.Doggy
+ language.PassByValue
 leetcode/FindtheDifferenceofTwoArrays.java
  leetcode.FindtheDifferenceofTwoArrays
 leetcode/MergeStringsAlternately.java
  leetcode.MergeStringsAlternately
 leetcode/ReverseVowelsOfString.java
  leetcode.ReverseVowelsOfString
-leetcode/Notes.java
- leetcode.Notes
+language/InterfaceExample.java
+ language.Animal
+ language.Dog
+ language.InterfaceExample
+leetcode/CanPlaceFlowers.java
+ leetcode.CanPlaceFlowers
