@@ -13,20 +13,25 @@ public class User {
     }
 
     public Integer getUserID() {
+        //System.out.println("getUserID");
         return userID;
     }
 
     public String getUserName() {
+        //System.out.println("getUserName");
         return userName;
     }
 
     public String getLocation() {
+        //System.out.println("getLocation");
         return location;
     }
 
     public void sayHi() {
+        //System.out.println("sayHi");
         System.out.println("hello!!");
     }
 
 
 }
+

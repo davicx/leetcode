@@ -103,18 +103,6 @@ public class Tools {
 
         return stringSet;
     }
-    /*
-        public static <T> Set<T> arrayListToSet(List<T> arrayList) {
-            return new HashSet<>(arrayList);
-        }
-        public static <T> Set<T> arrayToSet(T[] array) {
-            Set<T> set = new HashSet<>();
-            for (T item : array) {
-                set.add(item);
-            }
-            return set;
-        }
-     */
 
 
     //TIME

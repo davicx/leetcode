@@ -7,12 +7,19 @@ leetcode/ValidParentheses.java
 leetcode/MaxConsecutiveOnesIII.java
  leetcode.MaxConsecutiveOnesIII
  leetcode.NumHolder
+language/PassByValue.java
+ language.Doggy
+ language.PassByValue
 leetcode/MaximumAverageSubarray.java
  leetcode.MaximumAverageSubarray
 leetcode/GreatestCommonDivisorofStrings.java
  leetcode.GreatestCommonDivisorofStrings
-leetcode/Notes.java
- leetcode.Notes
+tools/MapsReduceStreams.java
+ tools.MapsReduceStreams
+language/InterfaceExample.java
+ language.Animal
+ language.Dog
+ language.InterfaceExample
 Main.java
  Main
  Simple
@@ -64,18 +71,26 @@ leetcode/LongestSubarrayAfterDeletingOneElement.java
  leetcode.LongestSubarrayAfterDeletingOneElement
 leetcode/MoveZeroes.java
  leetcode.MoveZeroes
-language/PassByValue.java
- language.Doggy
- language.PassByValue
+leetcode/CanPlaceFlowers.java
+ leetcode.CanPlaceFlowers
 leetcode/FindtheDifferenceofTwoArrays.java
  leetcode.FindtheDifferenceofTwoArrays
 leetcode/MergeStringsAlternately.java
  leetcode.MergeStringsAlternately
 leetcode/ReverseVowelsOfString.java
  leetcode.ReverseVowelsOfString
-language/InterfaceExample.java
- language.Animal
- language.Dog
- language.InterfaceExample
-leetcode/CanPlaceFlowers.java
- leetcode.CanPlaceFlowers
+language/LanguageBasics.java
+ language.AnimalLB
+ language.DogLB
+ language.LanguageBasics
+leetcode/Notes.java
+ leetcode.Notes
+language/MultithreadingExample.java
+ language.Counter
+ language.MultithreadingExample
+ language.MyRunnable
+ language.MyThread
+ language.SafeCounter
+language/MultithreadQueueAndObjects.java
+ language.MultithreadQueueAndObjects
+ language.Person
